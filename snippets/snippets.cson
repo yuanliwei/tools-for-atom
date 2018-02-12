@@ -17,33 +17,48 @@
         ${4:'wertyu'}
         }
     """
-
   'bootstrap button primary':
-    'prefix': 'bootstrap buttons primary'
+    'prefix': 'bootstrap button primary'
     'body': """
-          <div class="btn btn-lg btn-primary">${1:btn-primary}</div>
-    """
-
+          <button type="button" class="btn btn-primary">Primary</button>
+          """
+  'bootstrap button secondary':
+    'prefix': 'bootstrap button secondary'
+    'body': """
+          <button type="button" class="btn btn-secondary">Secondary</button>
+          """
   'bootstrap button success':
-    'prefix': 'bootstrap buttons success'
+    'prefix': 'bootstrap button success'
     'body': """
-          <div class="btn btn-lg btn-success">${1:btn-success}</div>
-    """
-
-  'bootstrap button info':
-    'prefix': 'bootstrap buttons info'
+          <button type="button" class="btn btn-success">Success</button>
+          """
+  'bootstrap button danger':
+    'prefix': 'bootstrap button danger'
     'body': """
-          <div class="btn btn-lg btn-info">${1:btn-info}</div>
-    """
-
+          <button type="button" class="btn btn-danger">Danger</button>
+          """
   'bootstrap button warning':
-    'prefix': 'bootstrap buttons warning'
+    'prefix': 'bootstrap button warning'
     'body': """
-          <div class="btn btn-lg btn-warning">${1:btn-warning}</div>
-    """
-
-  'bootstrap button error':
-    'prefix': 'bootstrap buttons error'
+          <button type="button" class="btn btn-warning">Warning</button>
+          """
+  'bootstrap button info':
+    'prefix': 'bootstrap button info'
     'body': """
-          <div class="btn btn-lg btn-error">${1:btn-error}</div>
-    """
+          <button type="button" class="btn btn-info">Info</button>
+          """
+  'bootstrap button light':
+    'prefix': 'bootstrap button light'
+    'body': """
+          <button type="button" class="btn btn-light">Light</button>
+          """
+  'bootstrap button dark':
+    'prefix': 'bootstrap button dark'
+    'body': """
+          <button type="button" class="btn btn-dark">Dark</button>
+          """
+  'bootstrap button link':
+    'prefix': 'bootstrap button link'
+    'body': """
+          <button type="button" class="btn btn-link">Link</button>
+          """
