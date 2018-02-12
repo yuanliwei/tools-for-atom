@@ -1,0 +1,49 @@
+'.source.js':
+  'Snippet Name':
+    'prefix': 'Snippet Trigger'
+    'body': """
+      Hello World!
+      Hello World!
+      Hello World!
+      Hello World!
+    """
+
+  'if statment':
+    'prefix': 'mmnnmif'
+    'body': """
+      if($1){
+        $2
+        ${3:'replaced'}
+        ${4:'wertyu'}
+        }
+    """
+
+  'bootstrap button primary':
+    'prefix': 'bootstrap buttons primary'
+    'body': """
+          <div class="btn btn-lg btn-primary">${1:btn-primary}</div>
+    """
+
+  'bootstrap button success':
+    'prefix': 'bootstrap buttons success'
+    'body': """
+          <div class="btn btn-lg btn-success">${1:btn-success}</div>
+    """
+
+  'bootstrap button info':
+    'prefix': 'bootstrap buttons info'
+    'body': """
+          <div class="btn btn-lg btn-info">${1:btn-info}</div>
+    """
+
+  'bootstrap button warning':
+    'prefix': 'bootstrap buttons warning'
+    'body': """
+          <div class="btn btn-lg btn-warning">${1:btn-warning}</div>
+    """
+
+  'bootstrap button error':
+    'prefix': 'bootstrap buttons error'
+    'body': """
+          <div class="btn btn-lg btn-error">${1:btn-error}</div>
+    """
