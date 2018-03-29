@@ -4,6 +4,8 @@ activate(state)
 initialize(state)
 deactivate()
 serialize()
+getDefaultLocation () { return 'bottom' }
+getTitle() { return 'output' }
 
 config //: 该对象中可以为包自定义配置。
 activate(state)//：该方法是在包激活的时候调用。如果你的包实现了 serialize() 方法，那么将会传递上次窗口序列化的 state 数据给该方法
@@ -107,3 +109,21 @@ this.modalPanel.destroy();
 this.modalPanel.isVisible() ? this.modalPanel.hide() : this.modalPanel.show()
 
 ```
+
+# TextEditor 使用示例
+```javascript
+import { TextEditor } from 'atom'
+
+- 1
+this.element = document.createElement('atom-text-editor')
+this.editor = this.element.getModel()
+this.editor = new TextEditor()
+
+- 2
+this.editor = new TextEditor({autoHeight: false})
+this.element = this.editor.element
+this.editor.setGrammar(atom.grammars.grammarForScopeName('source.js'))
+
+```
+- shouldPromptToSave() { return false; }
+-
