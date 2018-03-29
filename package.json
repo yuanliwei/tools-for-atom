@@ -1,9 +1,9 @@
 {
   "name": "tools",
   "main": "./lib/tools",
-  "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [],
+  "version": "0.0.1",
+  "description": "yuanliwei (de) tool box!",
+  "keywords": ["tools"],
   "activationCommands": {
     "atom-workspace": [
       "tools:run",
