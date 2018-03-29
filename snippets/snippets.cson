@@ -20,45 +20,45 @@
   'bootstrap button primary':
     'prefix': 'bootstrap button primary'
     'body': """
-          <button type="button" class="btn btn-primary">Primary</button>
+          <button class="btn btn-primary">Primary</button>
           """
   'bootstrap button secondary':
     'prefix': 'bootstrap button secondary'
     'body': """
-          <button type="button" class="btn btn-secondary">Secondary</button>
+          <button class="btn btn-secondary">Secondary</button>
           """
   'bootstrap button success':
     'prefix': 'bootstrap button success'
     'body': """
-          <button type="button" class="btn btn-success">Success</button>
+          <button class="btn btn-success">Success</button>
           """
   'bootstrap button danger':
     'prefix': 'bootstrap button danger'
     'body': """
-          <button type="button" class="btn btn-danger">Danger</button>
+          <button class="btn btn-danger">Danger</button>
           """
   'bootstrap button warning':
     'prefix': 'bootstrap button warning'
     'body': """
-          <button type="button" class="btn btn-warning">Warning</button>
+          <button class="btn btn-warning">Warning</button>
           """
   'bootstrap button info':
     'prefix': 'bootstrap button info'
     'body': """
-          <button type="button" class="btn btn-info">Info</button>
+          <button class="btn btn-info">Info</button>
           """
   'bootstrap button light':
     'prefix': 'bootstrap button light'
     'body': """
-          <button type="button" class="btn btn-light">Light</button>
+          <button class="btn btn-light">Light</button>
           """
   'bootstrap button dark':
     'prefix': 'bootstrap button dark'
     'body': """
-          <button type="button" class="btn btn-dark">Dark</button>
+          <button class="btn btn-dark">Dark</button>
           """
   'bootstrap button link':
     'prefix': 'bootstrap button link'
     'body': """
-          <button type="button" class="btn btn-link">Link</button>
+          <button class="btn btn-link">Link</button>
           """
