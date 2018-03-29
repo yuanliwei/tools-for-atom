@@ -7,7 +7,22 @@
   "activationCommands": {
     "atom-workspace": [
       "tools:run",
-      "tools:toggle"
+      "tools:toggle",
+      "tools:JS format",
+      "tools:CSS format",
+      "tools:SQL format",
+      "tools:XML format",
+      "tools:JSON format",
+      "tools:SQL min",
+      "tools:XML min",
+      "tools:CSS min",
+      "tools:JSON min",
+      "tools:Crypto md5",
+      "tools:Crypto sha1",
+      "tools:Crypto sha256",
+      "tools:Crypto sha512",
+      "tools:Encode encodeUri",
+      "tools:Encode decodeUri"
     ]
   },
   "repository": "https://github.com/atom/tools",
