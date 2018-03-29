@@ -66,8 +66,8 @@ export default class MainView {
     return 'Tools'
   }
 
-  destory(){
-    console.log('on destory');
+  destroy(){
+    console.log('on destroy');
     this.element.remove();
   }
 
@@ -102,7 +102,7 @@ this.modalPanel = atom.workspace.addModalPanel({
   visible: false
 });
 
-// destory
+// destroy
 this.modalPanel.destroy();
 
 // visible&invisible
