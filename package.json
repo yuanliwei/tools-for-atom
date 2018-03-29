@@ -5,7 +5,7 @@
   "description": "A short description of your package",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": "tools:run"
+    "atom-workspace": ["tools:run", "tools:toggle"]
   },
   "repository": "https://github.com/atom/tools",
   "license": "MIT",

@@ -115,15 +115,17 @@ this.modalPanel.isVisible() ? this.modalPanel.hide() : this.modalPanel.show()
 import { TextEditor } from 'atom'
 
 - 1
+<atom-text-editor class="xxx" mini=true placeholderText='Find in current buffer'></atom-text-editor>
+
+- 2
 this.element = document.createElement('atom-text-editor')
 this.editor = this.element.getModel()
 this.editor = new TextEditor()
 
-- 2
+- 3
 this.editor = new TextEditor({autoHeight: false})
 this.element = this.editor.element
 this.editor.setGrammar(atom.grammars.grammarForScopeName('source.js'))
 
 ```
 - shouldPromptToSave() { return false; }
--
