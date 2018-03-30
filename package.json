@@ -35,7 +35,8 @@
       "tools:Encode decodeHtml",
       "tools:Encode decodeNative",
       "tools:Encode decodeUnicode",
-      "tools:Encode decodeDate"
+      "tools:Encode decodeDate",
+      "tools:Encode decodeCoffee"
     ]
   },
   "repository": "https://github.com/atom/tools",
@@ -44,6 +45,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "coffee-script": "^1.12.7",
     "he": "^1.1.1",
     "highlight.js": "^9.12.0",
     "iconv-lite": "^0.4.19",
