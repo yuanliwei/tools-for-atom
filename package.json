@@ -36,7 +36,8 @@
       "tools:Encode decodeNative",
       "tools:Encode decodeUnicode",
       "tools:Encode decodeDate",
-      "tools:Encode decodeCoffee"
+      "tools:Encode decodeCoffee",
+      "tools:Encode decodeLess"
     ]
   },
   "repository": "https://github.com/atom/tools",
@@ -52,6 +53,7 @@
     "jquery": "^3.3.1",
     "js-beautify": "^1.7.5",
     "jszip": "^3.1.5",
+    "less": "^3.0.1",
     "moment": "^2.21.0",
     "pako": "^1.0.6",
     "sql.js": "^0.5.0",
