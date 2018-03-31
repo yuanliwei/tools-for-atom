@@ -1,6 +1,9 @@
 {
   "context-menu": {
-    "atom-text-editor": [ ]
+    "atom-text-editor": [
+      { "label": "Translate_zh", "command": "tools:Encode translate_zh" },
+      { "label": "Translate_en", "command": "tools:Encode translate_en" }
+    ]
   },
   "menu": [
     {

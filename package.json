@@ -37,7 +37,9 @@
       "tools:Encode decodeUnicode",
       "tools:Encode decodeDate",
       "tools:Encode decodeCoffee",
-      "tools:Encode decodeLess"
+      "tools:Encode decodeLess",
+      "tools:Encode translate_zh",
+      "tools:Encode translate_en"
     ]
   },
   "repository": "https://github.com/atom/tools",
