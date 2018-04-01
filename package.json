@@ -8,7 +8,8 @@
   ],
   "activationCommands": {
     "atom-workspace": [
-      "tools:main"
+      "tools:main",
+      "tools:generateTags"
     ],
     "atom-text-editor": [
       "tools:run",
