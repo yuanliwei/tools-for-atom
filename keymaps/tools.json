@@ -1,6 +1,6 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "tools:toggle",
+    "ctrl-alt-o": "tools:main",
     "ctrl-alt-r": "tools:run"
   }
 }

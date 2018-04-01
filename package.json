@@ -8,8 +8,10 @@
   ],
   "activationCommands": {
     "atom-workspace": [
+      "tools:main"
+    ],
+    "atom-text-editor": [
       "tools:run",
-      "tools:toggle",
       "tools:JS format",
       "tools:CSS format",
       "tools:SQL format",
