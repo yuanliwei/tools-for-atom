@@ -1,0 +1,4 @@
+- `atom.workspace.packageManager.getAvailablePackages()`
+- `atom.workspace.packageManager.getActivePackages()`
+- `process.mainModule`
+- `process.mainModule.children`
