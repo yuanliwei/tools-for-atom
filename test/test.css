@@ -1,0 +1,113 @@
+.nowrap{
+  white-space: nowrap;
+}
+
+test{
+  border: 1px
+}
+
+.styleguide {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.styleguide a {
+  text-decoration: underline;
+}
+.styleguide-controls {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 100;
+}
+.styleguide-header {
+  padding: 15px;
+  border-bottom: 1px solid #dbdbdc;
+}
+.styleguide-header h1 {
+  font-size: 2em;
+  margin: 0 0 .5em 0;
+  color: #232324;
+}
+.styleguide-header p {
+  font-size: 1.2em;
+}
+.styleguide-header p:last-of-type {
+  margin-bottom: 0;
+}
+.styleguide-sections {
+  flex: 1;
+  overflow: auto;
+}
+.styleguide-sections > section {
+  background-color: #f5f5f5;
+  padding: 0;
+  border-bottom: 1px solid #dbdbdc;
+  border-top: none;
+}
+.styleguide-sections > section:last-child {
+  margin-bottom: 0;
+}
+.styleguide-sections > section.collapsed {
+  background-color: #fafafa;
+}
+.styleguide-sections > section.collapsed > .section-heading {
+  display: block;
+  margin: 0;
+  padding-bottom: 15px;
+  color: #424243;
+}
+.styleguide-sections > section.collapsed > .section-heading:hover {
+  color: #232324;
+  background-color: #e5e5e6;
+}
+.styleguide-sections > section.collapsed > .section-heading:active {
+  background-color: #fafafa;
+}
+.styleguide-sections > section.collapsed > * {
+  display: none;
+}
+.styleguide-sections .section-heading.section-heading {
+  padding: 15px 15px 0 15px;
+  cursor: pointer;
+  font-weight: normal;
+  font-size: 1.8em;
+  color: #232324;
+}
+.styleguide-sections section > h2 {
+  font-size: 1.5em;
+  line-height: 1.2;
+  margin: 1em 15px 0 15px;
+  color: #232324;
+}
+.styleguide-sections section > p {
+  font-size: 1.1em;
+  margin: 0.5em 15px 1em 15px;
+}
+.styleguide .example {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 3px;
+  padding: 5px;
+}
+.styleguide .example .example-rendered,
+.styleguide .example .example-code {
+  position: relative;
+  flex: 1 1 300px;
+  min-width: 0;
+  margin: 5px;
+  border-radius: 3px;
+  border: 1px solid #dbdbdc;
+}
+.styleguide .example .example-rendered {
+  padding: 10px;
+  background: #fafafa;
+  overflow: hidden;
+}
+.styleguide .example .example-code {
+  background-color: #fafafa;
+}
+.styleguide .example .example-code pre {
+  border: none;
+  background-color: inherit;
+}
