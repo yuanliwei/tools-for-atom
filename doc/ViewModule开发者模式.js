@@ -1,6 +1,6 @@
 // Ctrl+P : 在控制台中搜索文件
 
-global.devDir = 'C:\\Users\\y\\github\\tools\\'
+global.devDir = 'project dir'
 global.ModuleBK = Module
 ModuleBK.prototype.require=function (module) {
   const absoluteFilePath = ModuleBK._resolveFilename(module, this, false)
