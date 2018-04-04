@@ -1,6 +1,7 @@
 {
   "atom-workspace": {
     "ctrl-alt-o": "tools:main",
-    "ctrl-alt-r": "tools:run"
+    "ctrl-alt-r": "tools:run",
+    "f4": "tools:Encode translate_zh"
   }
 }
