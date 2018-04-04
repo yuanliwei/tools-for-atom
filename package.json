@@ -13,6 +13,7 @@
     ],
     "atom-text-editor": [
       "tools:run",
+      "tools:pasteImage",
       "tools:JS format",
       "tools:CSS format",
       "tools:SQL format",
