@@ -34,4 +34,49 @@ class Demo {
     // 当前项目路径
     atom.workspace.project.rootDirectories[0].path
   }
+
+  addBaseView(){
+    var BaseView = require('../lib/view/BaseView');
+    atom.workspace.open(new BaseView())
+  }
+
+  addChildView(){
+    var ChildView = require('../lib/view/ChildView');
+    atom.workspace.open(new ChildView())
+  }
+
+  addOpenInDock(btns){
+    const item = {
+      element: document.createElement('div'),
+      getTitle () { return 'My Fabulous Divl' },
+      getDefaultLocation () { return 'bottom' },
+    }
+    atom.workspace.open(item)
+  }
+
+  addTextEditor(btns){
+    dom.append(new TextEditor({mini: true, placeholderText: 'Find in current buffer'}).element)
+  }
+
+  beep(btns){
+    atom.beep()
+  }
+
+  showAtomConfirm(){
+    atom.confirm({
+      message: 'How you feeling?',
+      detail: 'Be honest.',
+      buttons: ['Good', 'Bad']
+    }, (response)=> {
+      if (response === 0) {
+        window.alert('good to hear')
+      } else {
+        window.alert('bummer')
+      }
+    })
+  }
+
+  addTooltip(){
+    this.subscriptions.add( atom.tooltips.add(dom, {title: 'This is a tooltip'}) )
+  }
 }
