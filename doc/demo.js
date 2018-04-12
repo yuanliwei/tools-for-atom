@@ -79,4 +79,16 @@ class Demo {
   addTooltip(){
     this.subscriptions.add( atom.tooltips.add(dom, {title: 'This is a tooltip'}) )
   }
+
+  const { Disposable } = require('atom');
+
+  useDisposable(){
+    var resizeEventListener = ()=>{
+      this.content.element.setHeight(editorContainer.height())
+    }
+    window.addEventListener('resize', resizeEventListener)
+    this.subscriptions.add(new Disposable(()=>{
+      window.removeEventListener('resize',resizeEventListener)
+    }))
+  }
 }
