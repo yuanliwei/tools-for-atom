@@ -7,6 +7,9 @@
     "tools"
   ],
   "activationCommands": {
+    ".tree-view .file .name[data-name$=\\.js]": [
+      "tools:runFileQuiet"
+    ],
     "atom-workspace": [
       "tools:generateTags"
     ],

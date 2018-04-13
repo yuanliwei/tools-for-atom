@@ -3,6 +3,9 @@
     "atom-text-editor": [
       { "label": "Translate_zh", "command": "tools:Encode translate_zh" },
       { "label": "Translate_en", "command": "tools:Encode translate_en" }
+    ],
+    ".tree-view .file .name[data-name$=\\.js]": [
+      { "label": "Run JS", "command": "tools:runFileQuiet" }
     ]
   },
   "menu": [
