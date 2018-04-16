@@ -80,9 +80,9 @@ class Demo {
     this.subscriptions.add( atom.tooltips.add(dom, {title: 'This is a tooltip'}) )
   }
 
-  const { Disposable } = require('atom');
 
   useDisposable(){
+    const { Disposable } = require('atom');
     var resizeEventListener = ()=>{
       this.content.element.setHeight(editorContainer.height())
     }
