@@ -5,7 +5,8 @@
       { "label": "Translate_en", "command": "tools:Encode translate_en" }
     ],
     ".tree-view .file .name[data-name$=\\.js]": [
-      { "label": "Run JS", "command": "tools:runFileQuiet" }
+      { "label": "Run JS", "command": "tools:runFileQuiet" },
+      { "label": "Run In View", "command": "tools:runFileInView" }
     ]
   },
   "menu": [
