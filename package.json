@@ -12,7 +12,8 @@
       "tools:runFileInView"
     ],
     "atom-workspace": [
-      "tools:generateTags"
+      "tools:generateTags",
+      "tools:git bash here"
     ],
     "atom-text-editor": [
       "tools:run",
