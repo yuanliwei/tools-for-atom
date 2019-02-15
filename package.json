@@ -59,7 +59,6 @@
   },
   "dependencies": {
     "coffee-script": "^1.12.7",
-    "dialogs": "^1.1.20",
     "glob": "^7.1.2",
     "he": "^1.1.1",
     "iconv-lite": "^0.4.19",
