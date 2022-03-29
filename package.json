@@ -63,7 +63,7 @@
     "he": "^1.1.1",
     "iconv-lite": "^0.4.19",
     "jquery": "^3.5.0",
-    "js-beautify": "^1.7.5",
+    "js-beautify": "^1.14.1",
     "less": "^3.8.1",
     "moment": "^2.21.0",
     "vkbeautify": "^0.99.3"
